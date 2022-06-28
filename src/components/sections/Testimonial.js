@@ -109,7 +109,7 @@ const Testimonial = ({
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">President, Co-Founder</a>
+                    <a href="#0">President, Founder</a>
                   </span>
                 </div>
               </div>

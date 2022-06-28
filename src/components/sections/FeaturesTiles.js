@@ -120,7 +120,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Web 3.0 </h4>
                   <p className="m-0 text-sm">
-                    utilizing cutting-edge technology and always pushing the
+                    Utilizing cutting-edge technology and always pushing the
                     envelope
                   </p>
                 </div>
@@ -169,8 +169,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">Patents</h4>
                   <p className="m-0 text-sm">
-                    Presence products are based on Three Patent registered in
-                    the US{" "}
+                    Presence products are based on Three Patents registered in
+                    the USA
                   </p>
                 </div>
               </div>

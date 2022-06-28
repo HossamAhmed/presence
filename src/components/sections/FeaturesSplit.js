@@ -102,7 +102,7 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12">Data-driven insights</h3>
                 <p className="m-0">
-                  multi target platform covring Mobile, desktop, VR sets and
+                  Multi target platform covring Mobile, desktop, VR sets and
                   more{" "}
                 </p>
               </div>
@@ -132,7 +132,7 @@ const FeaturesSplit = ({
                 </div>
                 <h3 className="mt-0 mb-12">Data-driven insights</h3>
                 <p className="m-0">
-                  a flexible agile team that reacts and organize at a world
+                  A flexible agile team that reacts and organize at a world
                   class speed to find the best solutions wherever it be.
                 </p>{" "}
               </div>
