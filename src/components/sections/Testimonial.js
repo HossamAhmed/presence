@@ -41,7 +41,8 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: "Founders",
-    paragraph: "",
+    paragraph:
+      "Presence founders have led many startups up to maturity and have successfully founded many startups in the Bay Area, such as ARleaps, AB3DLaps, 3D Touch, Femto-Soft and Ezosa Companies in USA.",
   };
 
   return (
@@ -80,6 +81,12 @@ const Testimonial = ({
                   <span className="testimonial-item-link">
                     <a href="#0">CEO, Founder</a>
                   </span>
+                  <br />
+                  <span>
+                    <a href="mailto:hossam@presencetech.io">
+                      hossam@presencetech.io
+                    </a>
+                  </span>
                 </div>
               </div>
             </div>
@@ -110,6 +117,12 @@ const Testimonial = ({
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="#0">President, Founder</a>
+                  </span>
+                  <br />
+                  <span>
+                    <a href="mailto:hossam@presencetech.io">
+                      omran@presencetech.io
+                    </a>
                   </span>
                 </div>
               </div>

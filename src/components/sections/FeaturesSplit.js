@@ -49,7 +49,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: "Presence Tool Direction Segments",
+    title: "About us",
     paragraph:
       "Out of its strong belief that presence Tool is a genuine revolution, presence Company decided to utilize its patented innovative Artificial Intelligent algorithm to offer state-of-the-art Intelligent MV Solutions that will eventually lead such revolution.",
   };
@@ -58,7 +58,7 @@ const FeaturesSplit = ({
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <div className={splitClasses}>
             <div className="split-item">
               <div

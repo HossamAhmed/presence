@@ -43,7 +43,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: "Mission obsessed",
+    title: "Mission",
     paragraph:
       "The sole purpose of Presentce is to build the best Metaverse for humanity",
   };
@@ -52,8 +52,59 @@ const FeaturesTiles = ({
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
+
           <div className={tilesClasses}>
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require("./../../assets/images/feature-tile-icon-02.svg")}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">About us</h4>
+                  <p className="m-0 text-sm">
+                    Presence founded in 2020 as a USA Company. Presence offers a
+                    full suite of Intelligent Secure Metaverse Tool.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require("./../../assets/images/feature-tile-icon-04.svg")}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Mission obsessed</h4>
+                  <p className="m-0 text-sm">
+                    The sole purpose of Presentce is to build the best Metaverse
+                    for humanity
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
@@ -67,17 +118,16 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">Value creation</h4>
+                  <h4 className="mt-0 mb-8">Value</h4>
                   <p className="m-0 text-sm">
-                    Society gets the most value out of a Metaverse much like the
-                    Internet. Presence aims to capture only a small fraction of
-                    the value we create.{" "}
+                    Presence aims to capture only a small fraction of the value
+                    we create.{" "}
                   </p>
                 </div>
               </div>
             </div>
 
-            <div
+            {/* <div
               className="tiles-item reveal-from-bottom"
               data-reveal-delay="200"
             >
@@ -100,9 +150,9 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div
+            {/* <div
               className="tiles-item reveal-from-bottom"
               data-reveal-delay="400"
             >
@@ -125,9 +175,9 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="tiles-item reveal-from-bottom">
+            {/* <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -149,7 +199,7 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div
               className="tiles-item reveal-from-bottom"
@@ -171,6 +221,31 @@ const FeaturesTiles = ({
                   <p className="m-0 text-sm">
                     Presence products are based on Three Patents registered in
                     the USA
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require("./../../assets/images/feature-tile-icon-02.svg")}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">Software</h4>
+                  <p className="m-0 text-sm">
+                    Presence software extends Metaverse farther to create the
+                    best custom experience possible.
                   </p>
                 </div>
               </div>
