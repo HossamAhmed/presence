@@ -95,7 +95,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <Image
                   className="has-shadow"
-                  src={require("./../../assets/images/omran.jpg")}
+                  src={require("./../../assets/images/ayed.jpg")}
                   alt="Hero"
                   width={896}
                   height={504}
@@ -112,7 +112,7 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                    Ahmed Omran
+                    Ayed Adeed
                   </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
@@ -120,8 +120,45 @@ const Testimonial = ({
                   </span>
                   <br />
                   <span>
-                    <a href="mailto:hossam@presencetech.io">
-                      omran@presencetech.io
+                    <a href="mailto:ayed@presencetech.io">
+                      ayed@presencetech.io
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom">
+              <div className="tiles-item-inner">
+                <Image
+                  className="has-shadow"
+                  src={require("./../../assets/images/johns.jpg")}
+                  alt="Hero"
+                  width={896}
+                  height={504}
+                />
+                <div
+                // className="testimonial-item-content"
+                >
+                  {/* <p className="text-sm mb-0">
+                    — Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                  </p> */}
+                </div>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-high">
+                    John Partin
+                  </span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    <a href="#0">COO</a>
+                  </span>
+                  <br />
+                  <span>
+                    <a href="mailto:john@presencetech.io">
+                      john@presencetech.io
                     </a>
                   </span>
                 </div>
